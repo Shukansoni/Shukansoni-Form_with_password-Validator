@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.517),rgba(0, 0, 0, 0.501)),url(images/download2.jpeg); 
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: transparent;
+    backdrop-filter: blur(40px);
+    backdrop-filter: brightness(30%);
+    padding: 10px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+#h2{
+    color: #06d6a0;
+    text-shadow: 0 0 20px #06d6a0, 0 0 30px #06d6a0;
+}
+
+.password-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #0963be;
+
+    background: linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, #57ffa2 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0965C0", endColorstr="#55FFA1", GradientType=1 ); 
+
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.password-input input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.password-input img{
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    background-color: hsla(147, 100%, 67%, 1) 100%;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.password-check img{
+    height: 25px;
+    padding-right: 10px;
+}
+
+.username-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #0963be;
+
+    background: linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, #57ffa2 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0965C0", endColorstr="#55FFA1", GradientType=1 ); 
+
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.username-div input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+#username::placeholder{
+    color: #d1d1d1;
+    text-align: center;
+    font-size: 3vh;
+    flex: 1;
+}
+
+.btns-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #0963be;
+
+    background: linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, #57ffa2 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0965C0", endColorstr="#55FFA1", GradientType=1 ); 
+
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.btns-div input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.email-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #0963be;
+
+    background: linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, #57ffa2 100%);
+    
+    background: -moz-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    background: -webkit-linear-gradient(0deg, hsla(210, 91%, 39%, 1) 0%, hsla(147, 100%, 67%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0965C0", endColorstr="#55FFA1", GradientType=1 ); 
+
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.email-div input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+#email::placeholder{
+    color: #d1d1d1;
+    text-align: center;
+    font-size: 3vh;
+    flex: 1;
+}
+
+.password-check div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-weight: 500;
+    color: #2dcafe;
+}
+
+@media (max-width: 1000px) {
+    #username::placeholder {
+        font-size: 18px; /* Smaller size for zoomed out or smaller screens */
+    }
+    #email::placeholder {
+        font-size: 18px; /* Smaller size for zoomed out or smaller screens */
+    }
+}
+
+@media (max-width: 600px) {
+    #username::placeholder {
+        font-size: 14px; /* Smaller size for zoomed out or smaller screens */
+    }
+    #email::placeholder {
+        font-size: 14px; /* Smaller size for zoomed out or smaller screens */
+    }
+}
